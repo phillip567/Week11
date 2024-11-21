@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        #students{
+            background-color: rgb(186, 234, 255);
+            border-collapse: collapse;
+            width: 100%;
+            height: 100vh;
+        }
+
+        th, td{
+            border: 1px solid rgb(114, 178, 223);
+            font-size: 20px;
+
+        }
+        tr:nth-child(even)
+        {
+            background-color: aqua;
+        }
+        tr:hover{
+            background-color: rgb(255, 255, 255);
+        }
+    </style>
+</head>
+<body>
+    <table id ="students">
+        <tr> <th>Name</th><th>Age</th><th>Address</th></tr>
+        <tr><td>Alexander</td><td>18</td><td>Etociboke</td></tr>
+        <tr><td>Phillip</td><td>18</td><td>North York</td></tr>
+        <tr><td>Gavin</td><td>18</td><td>Toronto</td></tr>
+
+    </table>
+</body>
+</html>
